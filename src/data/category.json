@@ -1,0 +1,26 @@
+[
+    {
+        "img": "../assets/images/content.jpg",
+        "alt": "Engage your Community",
+        "name": "Content Writing",
+        "button": "Click Here For More Info"
+    },
+    {
+        "img": "../assets/images/seo.jpg",
+        "alt": "Boost your Traffic",
+        "name": "SEO",
+        "button": "Click Here For More Info"
+    },
+    {
+        "img": "../assets/images/web.jpg",
+        "alt": "Create your Site",
+        "name": "Web Development",
+        "button": "Click Here For More Info"
+    },
+    {
+        "img": "../assets/images/idesign.jpg",
+        "alt": "Evaluate your Brand",
+        "name": "Logo Design",
+        "button": "Click Here For More Info"
+    }
+]
