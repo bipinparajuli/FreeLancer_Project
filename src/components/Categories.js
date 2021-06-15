@@ -2,7 +2,7 @@ import React from 'react'
 import styled from "styled-components"
 import { useStaticQuery , graphql } from 'gatsby'
 import Img from "gatsby-image";
-import { Button } from "./Button";
+import Button from "./Button";
 import { ImLocation } from "react-icons/im"
 
 const Categories = ({heading}) => {
@@ -55,7 +55,7 @@ const Categories = ({heading}) => {
         <CategoryContainer>
         <CategoryHeading>{heading}</CategoryHeading>
         <CategoryWrapper>{getCategory(data)}</CategoryWrapper>
-        <Button to="/category" primary="true" round="true" >More Categories</Button>
+        <Button to="/category" primary="true" round="true" text="More Categories" ></Button>
         </CategoryContainer>
 
     )

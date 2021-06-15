@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import styled from "styled-components";
 import { FaBars } from "react-icons/fa";
 import { menuData } from "../data/MenuData";
-import { Button } from './Button';
+import Button from './Button';
 
 const Header = () => {
   return(
@@ -18,7 +18,7 @@ const Header = () => {
         ))}
       </NavMenu>
       <NavBtn>
-        <Button primary="true" round="true" to="/post-a-job">Post Project</Button>
+        <Button primary="true" text="Post Project" round="true" to="/post-a-job"></Button>
       </NavBtn>
     </Nav>
 

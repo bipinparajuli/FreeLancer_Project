@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from "styled-components";
-import { Button } from './Button';
+import Button from './Button';
 import Video from "../assets/videos/HeroSection.mp4"
 
 const Hero = () => {
@@ -17,7 +17,7 @@ const Hero = () => {
                     <HeroP>
                     We connects you.
                     </HeroP>
-                    <Button primary="true" big="true" round="true" to="/post-a-job">Post a Job</Button>
+                    <Button primary="true" big="true" round="true" text="Post a Job" to="/post-a-job"></Button>
                 </HeroItems>
             </HeroContent>
         </HeroContainer>

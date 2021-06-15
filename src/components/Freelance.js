@@ -2,7 +2,7 @@ import React from 'react'
 import styled from "styled-components";
 import Img from "gatsby-image";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
-import { Button } from "./Button";
+import Button from "./Button";
 import { useStaticQuery ,graphql } from 'gatsby';
 
 const Freelance = () => {
@@ -43,7 +43,7 @@ const Freelance = () => {
                     <h3>There's never been a better time to take yourself online and start making money from your very own fine-tuned set of skills.</h3>
                 </Freelancer>
                 <Freelancer>
-                    <Button to="/join-as-a-freelancer" primary="true" round="true" >Join as A Freelancer</Button>
+                    <Button to="/join-as-a-freelancer" primary="true" round="true" text="Join as A Freelancer" ></Button>
                 </Freelancer>
                 </ColumnOne>
                 <ColumnTwo>
