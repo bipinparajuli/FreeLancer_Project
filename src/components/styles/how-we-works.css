@@ -1,0 +1,11 @@
+header{
+    background-image: url(../../assets/images/how-we-work.png);
+    background-position: top;
+    background-size: cover;
+    height: 95vh;
+}
+
+.container{
+    padding: 0;
+    max-width: 1100px !important;
+}

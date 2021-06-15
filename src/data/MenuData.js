@@ -5,3 +5,13 @@ export const menuData = [
     {title:"Sign Up",link:"/signup"},
     
 ]
+
+export const howWeWork = [
+    {title:"Title",text:"mdlamsldmalmldmlasmdlmlasmdmlamsdnlnansdlnd"},
+    {title:"Title",text:"mdlamsldmalmldmlasmdlmlasmdmlamsdnlnansdlnd"},
+    {title:"Title",text:"mdlamsldmalmldmlasmdlmlasmdmlamsdnlnansdlnd"},
+    {title:"Title",text:"mdlamsldmalmldmlasmdlmlasmdmlamsdnlnansdlnd"},
+    {title:"Title",text:"mdlamsldmalmldmlasmdlmlasmdmlamsdnlnansdlnd"},
+    {title:"Title",text:"mdlamsldmalmldmlasmdlmlasmdmlamsdnlnansdlnd"},
+
+]
