@@ -1,0 +1,37 @@
+main{
+    display: flex;
+    width: 100%;
+}
+
+aside{
+    width: 30%;
+}
+
+.projects{
+    width: 65%;
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+}
+
+.project_container{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 10px;
+    padding: 15px 10px;
+
+}
+.category{
+    margin-right: 3%;
+    background-color: orangered;
+    color: white;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+
+.subcategory{
+    background-color: blueviolet;
+    color: white;
+    padding: 5px 5px;
+    border-radius: 10px;
+}

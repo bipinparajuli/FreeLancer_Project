@@ -2,9 +2,9 @@ import React from 'react'
 import styled from "styled-components";
 import {Link} from "gatsby";
 
- const Buttons = ({text,Icon})=>{
+ const Buttons = ({text,Icon,to})=>{
     return (
-<Button>
+<Button to={to} >
 {Icon}
 {text}
 </Button>

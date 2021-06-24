@@ -17,7 +17,7 @@ const Hero = () => {
                     <HeroP>
                     We connects you.
                     </HeroP>
-                    <Button primary="true" big="true" round="true" text="Post a Job" to="/post-a-job"></Button>
+                    <Button primary="true" big="true" round="true" text="Post a Job" to="/postproject"></Button>
                 </HeroItems>
             </HeroContent>
         </HeroContainer>

@@ -1,13 +1,51 @@
-import React from "react"
+import React,{useState} from "react"
 import { Link } from "gatsby";
 import styled from "styled-components";
 import { FaBars } from "react-icons/fa";
 import { menuData } from "../data/MenuData";
 import Button from './Button';
+import {useLocation} from '@reach/router'
 
 const Header = () => {
+
+  const location = useLocation()
+  console.log(location.pathname);
+
+
+  const [bgcolor, setbgcolor] = useState("transparent");
+  const [textcolor, settextcolor] = useState("white");
+  const [position, setposition] = useState("relative");
+
+  window.onscroll = ()=>{
+    if(window.pageYOffset > 50)
+    {
+      setbgcolor("black");
+     settextcolor("white")
+     setposition("fixed")
+    }
+
+    else{
+    
+      if(location.pathname === "/")
+      {
+        setbgcolor("transparent");
+        settextcolor("white")
+        setposition("relative")
+      }
+    
+      else{
+        setbgcolor("black");
+        settextcolor("white")
+        setposition("relative")
+      }
+      
+    }
+    
+  }
+
+
   return(
-    <Nav>
+    <Nav bgcolor={bgcolor} textcolor={textcolor} position={position}  >
       <NavLink to="/">Freelance Nepal</NavLink>
       <Bars/>    
       <NavMenu>
@@ -18,7 +56,7 @@ const Header = () => {
         ))}
       </NavMenu>
       <NavBtn>
-        <Button primary="true" text="Post Project" round="true" to="/post-a-job"></Button>
+        <Button primary="true" text="Post Project" round="true" to="/postproject" ></Button>
       </NavBtn>
     </Nav>
 
@@ -27,13 +65,16 @@ const Header = () => {
 export default Header
 
 const Nav = styled.nav`
-background: transparent;
+background: ${props => props.bgcolor};
+color: ${props => props.textcolor};
 height: 50px;
 justify-content:space-between;
 display:flex;
 padding:0.5rem calc(100vw -1300px) / 2;
 z-index:100;
-position:relative;
+position:${props=>props.position};
+top:0;
+width:100%;
 `
 
 const NavLink = styled(Link)`
