@@ -10,7 +10,8 @@ const howworks = () => {
     return (        
 <Layout>
     <header>
-
+<p>WE WORK HARD, WE PLAY HARD</p>
+<h1>Work With Us</h1>
     </header>
     <main>
         <Container>

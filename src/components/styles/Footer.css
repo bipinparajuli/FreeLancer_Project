@@ -1,0 +1,19 @@
+footer{
+    background-color: #0291B9;
+
+}
+
+.footer_container{
+    padding: 5% 0;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+
+hr{
+    background-color: #fff;
+}
+
+.socail_icons *{
+    margin: 0 10px;
+}

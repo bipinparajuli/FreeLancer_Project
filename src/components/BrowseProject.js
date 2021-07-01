@@ -3,7 +3,7 @@ import "../components/styles/BrowseProject.css"
 import {browsejob } from '../data/browsejob'
 const BrowseProject = ({}) => {
     return (
-        <main>
+        <main className="main">
             <aside>
 Filer Porjects
             </aside>

@@ -19,7 +19,7 @@ const Header = () => {
   window.onscroll = ()=>{
     if(window.pageYOffset > 50)
     {
-      setbgcolor("black");
+      setbgcolor("#0291B9");
      settextcolor("white")
      setposition("fixed")
     }
@@ -34,7 +34,7 @@ const Header = () => {
       }
     
       else{
-        setbgcolor("black");
+        setbgcolor("#0291B9");
         settextcolor("white")
         setposition("relative")
       }
